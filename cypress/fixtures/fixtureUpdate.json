@@ -1,0 +1,62 @@
+{
+    "fixtureId": "4",
+    "fixtureStatus": {
+        "displayed": true,
+        "suspended": false
+    },
+    "footballFullState": {
+        "homeTeam":	"Leicester City",
+        "awayTeam":	"Manchester United",
+        "finished":	false,
+        "gameTimeInSeconds": 5280,
+        "goals": [
+            {
+                "clockTime": 3660,
+                "confirmed": true,
+                "id": 366522,
+                "ownGoal": false,
+                "penalty": false,
+                "period": "SECOND_HALF",
+                "playerId":	356262,
+                "teamId": 1
+            },
+            {
+                "clockTime": 5260,
+                "confirmed": true,
+                "id": 366523,
+                "ownGoal": false,
+                "penalty": false,
+                "period": "SECOND_HALF",
+                "playerId":	356262,
+                "teamId": 1
+            }
+        ],
+        "period": "SECOND_HALF",
+        "possibles": [
+            {}
+        ],
+        "corners": [
+            {}
+        ],
+        "redCards": [
+            {}
+        ],
+        "yellowCards": [
+            {}
+        ],
+        "startDateTime": "2020-07-26T16:42:00.000Z",
+        "started": true,
+        "teams": [
+            {
+                "association": "HOME",
+                "name": "Leicester-City",
+                "teamId": "HOME"
+            },
+            {
+                "association": "AWAY",
+                "name": "Manchester-United",
+                "teamId": "AWAY"
+            }
+        ]
+    }
+}
