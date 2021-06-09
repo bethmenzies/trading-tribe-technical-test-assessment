@@ -12,7 +12,6 @@ describe('get all fixtures', () => {
             expect(response.status).to.equal(200)
             expect(response.body).to.have.length(3)
             response.body.forEach((fixture) => {
-                console.log(fixture)
                 expect(fixture).to.have.property('fixtureId')
                 assert.isString(fixture.fixtureId)
             })
