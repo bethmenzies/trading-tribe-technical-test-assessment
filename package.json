@@ -4,7 +4,9 @@
   "description": "Trading Tribe Technical Tester Assessment",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
   },
   "author": "SBG",
   "license": "ISC",
