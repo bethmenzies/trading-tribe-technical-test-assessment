@@ -7,7 +7,7 @@ describe('get all fixtures', () => {
         // this will make sure that the /fixtures response deeply equals the data you provided
         cy.get('@fixtures').its('body').should('deep.equal', fixtures)
 
-        // below I'll also add the more in depth checks
+        // below are the more in depth checks
         cy.get('@fixtures').should((response) => {
             expect(response.status).to.equal(200)
             expect(response.body).to.have.length(3)

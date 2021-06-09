@@ -1,4 +1,29 @@
 # SBG - Bet Trading Tribe
+## Beth Menzies
+
+You will need Node.js in order to run this and the tests. 
+
+To run the tests, you first need to install and run the server locally:
+
+```
+npm install
+npm run start
+```
+
+Then you can choose which way to run the tests.
+
+Open mode will let you choose which tests to run, and show you them running in a Chrome browser
+
+`npm run cypress:open`
+
+Run mode will run the tests, and give you the results in the terminal
+
+`npm run cypress:run`
+
+Below is the README content that was already here
+
+******
+
 ## Technical Test Assessment
 
 This test comes with a mock API server that represents a snapshot of our internal Trading Engine.
